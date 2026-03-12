@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Save My Melody - Snoopy Adventure</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="som-chuva" src="https://www.soundjay.com/nature/sounds/rain-01.mp3" loop></audio>
+
+    <div id="menu" class="tela-menu">
+        <div class="header-titulos">
+            <h1 class="titulo-principal">O resgate de My Melody</h1>
+            <p class="subtitulo">- por Snoopy.</p>
+
+
+        </div>
+        
+        <button class="botao-play" onclick="iniciarJogo()">play</button>
+
+        <div class="celeiro-luz"></div>
+
+        <div class="start-text">
+            Clique em play para investigar...
+        </div>
+
+        <div class="snoopy-container">
+            <img src="download.png" class="snoopy-menu" alt="Snoopy">
+            <div class="sombra-pe"></div>
+        </div>
+
+        <div class="creditos">Lorena Silva, Nicole Vitoria e Adrielly Izidorio</div>
+    </div>
+
+    <div id="tela-jogo" class="tela" style="display: none;">
+        <div class="container-quiz">
+            <div id="alternativas"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
