@@ -1,0 +1,138 @@
+body{
+
+margin:0;
+font-family:Arial;
+height:100vh;
+
+background-image:url("image-artguru.png");
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+/* quiz */
+
+.quiz{
+
+background:rgba(255,255,255,0.85);
+padding:40px;
+
+border-radius:25px;
+
+width:600px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+
+}
+
+/* pergunta */
+
+.pergunta{
+
+font-size:26px;
+font-weight:bold;
+
+background:white;
+
+padding:15px;
+
+border-radius:15px;
+
+margin-bottom:30px;
+
+text-align:center;
+
+}
+
+/* respostas */
+
+.respostas{
+
+display:flex;
+flex-direction:column;
+gap:15px;
+
+}
+
+.respostas button{
+
+padding:15px;
+font-size:18px;
+
+border:none;
+border-radius:15px;
+
+cursor:pointer;
+
+background:white;
+
+transition:0.2s;
+
+}
+
+.respostas button:hover{
+
+transform:scale(1.05);
+background:#ffe27a;
+
+}
+
+/* snoopy esquerda */
+
+.snoopy{
+
+position:absolute;
+left:80px;
+bottom:50px;
+
+}
+
+.snoopy img{
+
+width:220px;
+
+}
+
+/* woodstock direita */
+
+.woodstock-area{
+
+position:absolute;
+right:80px;
+bottom:40px;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+}
+
+/* woodstock grande */
+
+.woodstock{
+
+width:450px;
+
+}
+
+/* balão dica */
+
+.balao{
+
+background:white;
+
+padding:12px 20px;
+
+border-radius:20px;
+
+margin-bottom:10px;
+
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+
+font-size:16px;
+
+}
